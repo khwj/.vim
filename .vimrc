@@ -401,7 +401,7 @@ endfunction
 execute pathogen#infect()
 set pastetoggle=<F2>
 set number
-colorscheme monokai
+colorscheme codedark
 autocmd BufNewFile,BufRead *.hql set filetype=hive expandtab
 autocmd BufNewFile,BufRead *.q set filetype=hive expandtab
 autocmd BufNewFile,BufRead *.avsc set syntax=json
